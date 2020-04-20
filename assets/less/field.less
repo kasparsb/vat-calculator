@@ -1,0 +1,46 @@
+.field {
+    position: relative;
+
+    border: 2px solid @accentFontColor;;
+    border-radius: 6px;
+
+    overflow: hidden;
+
+    @height: 64px;
+
+    label {
+        position: absolute;
+        left: 16px;;
+        top: 0;
+        height: @height;
+        line-height: @height;
+
+        color: @servicFontColor;
+
+        font-size: 18px;
+    }
+
+    input {
+        display: block;
+        padding: 16px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: right;
+
+        height: @height;
+        width: 100%;
+
+        box-sizing: border-box;
+
+        border: none;
+
+        color: @accentFontColor;
+
+        background-color: #f0f7ff;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+    }
+}

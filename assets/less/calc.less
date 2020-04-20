@@ -1,0 +1,49 @@
+.calc {
+    padding: 20px;
+
+    &__vat-label {
+        color: @servicFontColor;
+    }
+    &__vat {
+
+        label {
+            color: @servicFontColor;
+            display: block;
+            margin-bottom: 4px;
+            padding: 0 16px;
+        }
+
+        border: 2px solid @servicFontColor;
+        border-radius: 6px;
+        padding: 8px 0;
+
+        margin-bottom: 12px;
+    }
+
+    &__precision {
+        margin-top: 24px;
+        height: 24px;
+        line-height: 24px;
+
+        text-align: right;
+        color: @servicFontColor;
+
+        .toggle-switch {
+            margin-left: 12px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    &__results {
+        margin-top: 32px;
+    }
+
+    .result {
+        margin-top: 32px;
+
+        &:first-child {
+            margin-top: 0
+        }
+    }
+}
